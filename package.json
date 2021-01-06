@@ -1,0 +1,20 @@
+{
+  "name": "object2021",
+  "version": "1.0.0",
+  "description": "本项目是鑫果果做的华为页面~",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1095971802/huaiwei.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1095971802/huaiwei.com/issues"
+  },
+  "homepage": "https://github.com/1095971802/huaiwei.com#readme"
+}
