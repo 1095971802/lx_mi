@@ -1,0 +1,219 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+.wapper {
+  width: 1130px;
+  margin: 0 auto;
+}
+ul > li {
+  list-style-type: none;
+}
+header > .wapper > .logo > a {
+  display: block;
+  height: 98px;
+}
+main > .wapper > .main-pic {
+  background: url(../img/登录背景.jpg) no-repeat;
+  width: 100%;
+  height: 588px;
+  position: absolute;
+  left: 0;
+  top: 98px;
+  background-position: top center;
+}
+main > .wapper > .main-pic > a {
+  display: block;
+  height: 588px;
+}
+main > .wapper > .interface {
+  padding-top: 32px;
+}
+main > .wapper > .interface > .inter1 {
+  width: 410px;
+  height: 556px;
+  font-size: 14px;
+  z-index: 4;
+  background-color: #fff;
+  margin-left: 720px;
+  position: relative;
+}
+main > .wapper > .interface > .inter1 > .inter1-text {
+  padding: 27px 0 24px;
+  text-align: center;
+  font-size: 24px;
+  color: #666;
+}
+main > .wapper > .interface > .inter1 > .inter1-text > a {
+  color: #f56600;
+}
+main > .wapper > .interface > .inter1 > .inter1-text > span {
+  width: 1px;
+  height: 24px;
+  margin: 0 40px 0 35px;
+  border: 1px solid #e0e0e0;
+  background: #e0e0e0;
+}
+main > .wapper > .interface > .inter1 > .menu {
+  margin: 0 auto;
+  width: 348px;
+}
+main > .wapper > .interface > .inter1 > .menu > .menu-account {
+  display: block;
+  width: 348px;
+  height: 48px;
+  line-height: 48px;
+  padding: 13px 16px 13px 14px;
+  color: #4a4a4a;
+  font-size: 100%;
+  outline: none;
+  margin-bottom: 14px;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+}
+main > .wapper > .interface > .inter1 > .menu > .menu-account1 {
+  background-color: #ff6700;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  margin-bottom: 14px;
+  margin-top: 24px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+main > .wapper > .interface > .inter1 > .sof {
+  margin-top: -5px;
+}
+main > .wapper > .interface > .inter1 > .sof > .sof-phone {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+main > .wapper > .interface > .inter1 > .sof > .sof-phone > a {
+  display: block;
+  color: #ff6700;
+  border: 0 none;
+  height: auto;
+  line-height: normal;
+  margin: 0;
+  text-align: center;
+}
+main > .wapper > .interface > .inter1 > .sof > .sof-forget {
+  color: #999;
+  text-align: center;
+}
+main > .wapper > .interface > .inter1 > .sof > .sof-forget > a {
+  color: #999;
+}
+main > .wapper > .interface > .inter1 > .sof-icon {
+  padding-top: 143px;
+  text-align: center;
+}
+main > .wapper > .interface > .inter1 > .sof-icon > a {
+  width: 30px;
+  height: 30px;
+  margin: 0 17px;
+  border-radius: 50%;
+  display: inline-block;
+}
+main > .wapper > .interface > .inter1 > .sof-icon > .sof-icon1 {
+  background-color: #0288d1;
+}
+main > .wapper > .interface > .inter1 > .sof-icon > .sof-icon1 > i {
+  display: block;
+  margin: 4px 5px 0;
+  background: url(../img/jlt.png) no-repeat;
+  background-position: -19px 0;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+main > .wapper > .interface > .inter1 > .sof-icon > .sof-icon2 {
+  background-color: #d32f2f;
+}
+main > .wapper > .interface > .inter1 > .sof-icon > .sof-icon2 > i {
+  display: block;
+  margin: 4px 5px 0;
+  background: url(../img/jlt.png) no-repeat;
+  background-position: -37px 0;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+main > .wapper > .interface > .inter1 > .sof-icon > .sof-icon3 {
+  background-color: #0ae;
+}
+main > .wapper > .interface > .inter1 > .sof-icon > .sof-icon3 > i {
+  display: block;
+  margin-top: 6px;
+  margin-left: 4px;
+  background: url(../img/jlt.png) no-repeat;
+  background-position: -57px 0;
+  width: 25px;
+  height: 18px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+main > .wapper > .interface > .inter1 > .sof-icon > .sof-icon4 {
+  background-color: #00d20d;
+}
+main > .wapper > .interface > .inter1 > .sof-icon > .sof-icon4 > i {
+  display: block;
+  margin: 4px 5px 0;
+  background: url(../img/jlt.png) no-repeat;
+  background-position: -84px 0;
+  width: 30px;
+  height: 18px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+footer {
+  background: #fff;
+  margin-top: 0;
+  padding-top: 100px;
+  height: 180px;
+  text-align: center;
+}
+footer > .footer-1 {
+  color: #757575;
+  font-size: 14px;
+}
+footer > .footer-1 > a {
+  display: inline-block;
+  padding: 0 10px;
+  color: #757575;
+}
+footer > .footer-2 {
+  padding: 10px;
+  color: #757575;
+  font-size: 14px;
+}
+footer > .footer-2 > a {
+  color: #757575;
+}
+footer > .footer-2 > a > img {
+  border: 0;
+}

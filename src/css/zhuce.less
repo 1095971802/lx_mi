@@ -1,0 +1,204 @@
+@charset'utf-8';
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+    height:0;
+    overflow: hidden;
+    }
+body{
+    background-color: #f9f9f9;
+}
+.notclick{
+    pointer-events: none;
+  }
+// 头部
+header{
+    padding-bottom:60px;
+    margin-top: 60px;
+    >.wapper{
+        width: 854px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        background-color: #fff;
+        >.box{
+            padding-bottom: 30px;
+            >.logo{
+                padding-bottom: 40px;
+                >a{
+                  width: 49px;
+                  height: 48px;
+                  margin: 0 auto;
+                  display: block;
+                  cursor: default;
+                  background-image:url(../img/商标.png);
+                }
+            }
+            >.title{
+                text-align: center;
+               >h4{
+                font-size: 30px;
+                font-weight: normal;
+                color: #333;
+               }
+            }
+            >.box-big{
+               >.big1{
+                width: 332px;
+                padding: 30px 0;
+                line-height: 20px;
+                margin: 0 auto;
+                >h4{
+                    padding-bottom: 5px;
+                    color: #333;
+                    font-weight: normal;
+                    font-size: 14px;
+                }
+                >.state{
+                    position: relative;
+                    line-height: 20px;
+                    height: 40px;
+                    padding-left: 14px;
+                    line-height: 40px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    border: 1px solid #e8e8e8;
+                    color: #555;
+                    cursor: pointer;
+                    >p{
+                        float: left;
+                        width: 275px;
+                        border-right: 1px solid #e8e8e8;
+                        cursor: pointer;
+                        line-height: 40px;
+                        font-size: 14px;
+                    }
+                    >i{
+                        float: right;
+                        background: url(../html/img/jlt2.png) no-repeat;
+                        width: 16px;
+                        height: 16px;
+                        margin: 11px 12px 0 12px;
+                    }
+                }
+                >.warning{
+                    margin-top: 5px;
+                    margin-bottom: 15px;
+                    color: #666;
+                    line-height: 20px;
+                    font-size: 14px;
+                   }
+                >.phone{
+                    margin-left: -1px;
+                    position: relative;
+                    z-index: 3;
+                    height: 40px;
+                    line-height: 40px;
+                    display: inline-block;
+                    border: 1px solid #e8e8e8;
+                    outline: 0 none;
+                    margin-bottom: 30px;
+                    >.p86{
+                        width: 54px;
+                        border: 0 none;
+                        height: 40px;
+                        padding-left: 14px;
+                        line-height: 36px;
+                        display: inline-block;
+                        vertical-align:-10px;
+                        color: #555;
+                        border-right: 1px solid #e8e8e8;
+                        cursor: pointer;
+                        >p{
+                            width: auto;
+                            float: left;
+                        }
+                        >i{
+                            float: left;
+                            margin: 16px 0 0 8px;
+                            width: 0;
+                            height: 0;
+                            line-height: 0;
+                            font-size: 0;
+                            border-width: 5px;
+                            border-style: solid;
+                            border-color: #9d9d9d transparent transparent transparent;
+                        }
+                   }
+                   >input{
+                    width: 237px;
+                    height: 17px;
+                    line-height: 20px;
+                    padding: 10px;
+                    display: inline-block;
+                    border: 0;
+                    outline: 0;
+                   }
+                    }
+                >.reg{
+                   >input{
+                    display: block;
+                    background-color: #ff6700;
+                    border: 1px solid rgba(186,186,186,.3);
+                    border: 0 none;
+                    color: #fff;
+                    width: 330px;
+                    height: 42px;
+                    margin: 0 auto;
+                    line-height: 42px;
+                    text-align: center;
+                    font-size: 14px;
+                    cursor: pointer;
+                    border: 1px solid #e8e8e8;
+                    overflow: hidden;
+                    outline: 0;
+                   }
+                }
+                }
+               >.xieyi{
+                text-align: center;
+                padding-top: 40px;
+                >p{
+                    color: #9d9d9d;
+                    padding: 10px 0;
+                    >a{
+                        font-weight: bold;
+                        color: #333;
+                    }
+                }
+               }
+                }
+               }
+            }
+        }
+// 尾部
+footer{
+    color: #9d9d9d;
+    text-align: center;
+    height: 80px;
+    >.footer-1{
+        >a{
+            display: inline-block;
+            padding: 0 10px;
+            color: #757575;
+        }
+    }
+    >.footer-2{
+        padding: 10px;
+        color: #9d9d9d;
+        text-align: center;
+        >a{
+            color: #9d9d9d; 
+        }
+    }
+}
